@@ -1,13 +1,13 @@
 ---
 # Display name
-title: 吳健雄
+title: 毛宇
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: Yu Mao
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Yu
+last_name: Mao
 
 # Status emoji
 status:
@@ -20,12 +20,12 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: Epidemiologist, clinical data scientist
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
+  - name: Freelancer
+    url: NA
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
@@ -33,80 +33,78 @@ profiles:
   - icon: at-symbol
     url: 'mailto:your-email@example.com'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
+  - #icon: brands/x
+    #url: https://twitter.com/GetResearchDev
+  - #icon: brands/instagram
+    #url: https://www.instagram.com/
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/YuMAO3O
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/
-  - icon: academicons/orcid
-    url: https://orcid.org/
+    url: https://github.com/YuMAO3O
+  - #icon: academicons/google-scholar
+    #url: https://scholar.google.com/
+  - #icon: academicons/orcid
+    #url: https://orcid.org/
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Pharmacoepidemiology 药物流行病学
+  - Health Economics 健康经济学
+  - Patient-Centered Research 以患者为中心的研究
+  - Digital Health 数字健康
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: MS Medical Science
+    institution: Nagoya University
+    date_start: 2018-10-01
+    date_end: 2020-9-31
+    #summary: |
+      #Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+    #button:
+      #text: 'Read Thesis'
+      #url: 'https://example.com'
+  - area: BSc Pharmacy
+    institution: Shanxi Medical University
+    date_start: 2014-09-01
+    date_end: 2018-07-01
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.8/4.0
-
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
       
       Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Pharmacology, medical statistics, pharmacoepidemiology
+     
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ''
-    company_logo: ''
-    date_start: 2021-01-01
+  - position: Freelancer
+    #company_name: GenCoin
+    #company_url: ''
+    #company_logo: ''
+    date_start: 2024-05
     date_end: ''
+    summary: |3-
+      Responsibilities include:
+      - Chinese Translation and localization of Economic Evaluation in Clinical Trials
+      - Providing services including but not limited to research document writing, deck preparation, data analysing, health technology assessment, etc.
+      - Clients: Shanghai Health Development Research Center
+  - position: Clinical Statistician
+    company_name: Jiangsu Hengrui Pharmaceuticals Co., Ltd.
+    company_url: 'https://www.hengrui.com/en/about.html'
+    #company_logo: ''
+    date_start: 2023-05
+    date_end: 2024-04
     summary: |2-
       Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
-    company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
+      - Study design & data analysis, review of study protocols/SAP/CRF, sample size calculation and data analysis for early phase clinical studies and real-world studies
+      - Manuscripts review & publication support
+      - Providing training on study design and data analysis to internal and external audiences
+  - position: RWE Solution Supervisor
+    company_name: Hangzhou Tigermed Consulting Co., Ltd.
+    company_url: 'https://www.tigermedgrp.com/en/homepage'
+    #company_logo: ''
+    date_start: 2021-09
+    date_end: 2023-04
+    summary: |-
       Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-
+      - Solution making for real-world studies, including desk research on diseases and products, medical strategies, and slide preparation.
+      - Design and conduct observational studies: study documents development (study protocol, CRF), project management
+      - Covered therapeutic areas: Oncology, immunology, rare disease, etc.
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
@@ -114,73 +112,60 @@ skills:
     items:
       - name: Python
         description: ''
+        percent: 60
+        icon: code-bracket
+      - name: R
+        description: ''
         percent: 80
         icon: code-bracket
-      - name: Data Science
+      - name: SAS
         description: ''
-        percent: 100
-        icon: chart-bar
-      - name: SQL
-        description: ''
-        percent: 40
-        icon: circle-stack
+        percent: 80
+        icon: code-bracket
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking
+      - name: Hiking and Camping 徒步露营
         description: ''
         percent: 60
-        icon: person-simple-walk
-      - name: Cats
+        #icon: person-simple-walk
+      - name: Cats 猫猫
         description: ''
         percent: 100
-        icon: cat
-      - name: Photography
+        #icon: cat
+      - name: Standup paddleboarding 桨板
         description: ''
         percent: 80
-        icon: camera
+        #icon: camera
 
 languages:
-  - name: English
+  - name: Mandarin
     percent: 100
-  - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
+  - name: English
+    percent: 85
+  - name: Japanese
+    percent: 70
 
 # Awards.
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
+  - title: Data Science in Health Technology Assessment
+    url: https://www.coursera.org/account/accomplishments/certificate/80N5JJA16UTK
+    date: '2024-10'
     awarder: Coursera
     icon: coursera
-    summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
-    icon: edx
-    summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
-    icon: datacamp
-    summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+    #summary: |
+      #I
+  - title: Data Science with Real World Data in Pharma
+    url: https://www.coursera.org/learn/data-science-in-rwd-analysis
+    date: '2024-10'
+    awarder: Coursera
+    icon: coursera
 ---
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+你好，我叫毛宇，是好奇的旅行者。正在以自由职业者的身份度过career break，探索人生的可能性和未来的发展方向。喜欢研究，因为研究可以跨越语言、文化、经济、国别上的差异，跨越时间，帮助人们更好的理解世界、识别挑战、并找到解决方法。毕业后在医药行业工作三年，主要从事真实世界研究和临床研究的相关工作。家里有三只可爱的猫猫！
